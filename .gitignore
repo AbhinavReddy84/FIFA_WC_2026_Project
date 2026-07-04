@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.streamlit/
+
+catboost_info/
+
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,70 @@
+{
+  "best_model_name": "CatBoost",
+  "all_models": {
+    "LogisticRegression": {
+      "accuracy": 0.6026,
+      "log_loss": 0.8672
+    },
+    "DecisionTree": {
+      "accuracy": 0.6017,
+      "log_loss": 0.8804
+    },
+    "KNN": {
+      "accuracy": 0.5942,
+      "log_loss": 0.8791
+    },
+    "XGBoost": {
+      "accuracy": 0.6046,
+      "log_loss": 0.865
+    },
+    "CatBoost": {
+      "accuracy": 0.6063,
+      "log_loss": 0.8665
+    }
+  },
+  "validation_metrics": {
+    "accuracy": 0.6063,
+    "log_loss": 0.8665,
+    "report": {
+      "0": {
+        "precision": 0.561993769470405,
+        "recall": 0.6711309523809523,
+        "f1-score": 0.6117327907765344,
+        "support": 1344.0
+      },
+      "1": {
+        "precision": 0.3698630136986301,
+        "recall": 0.07743785850860421,
+        "f1-score": 0.12806324110671938,
+        "support": 1046.0
+      },
+      "2": {
+        "precision": 0.6513929618768328,
+        "recall": 0.8219241443108233,
+        "f1-score": 0.7267893660531697,
+        "support": 2162.0
+      },
+      "accuracy": 0.6063268892794376,
+      "macro avg": {
+        "precision": 0.5277499150152893,
+        "recall": 0.52349765173346,
+        "f1-score": 0.4888617993121412,
+        "support": 4552.0
+      },
+      "weighted avg": {
+        "precision": 0.5603049037949701,
+        "recall": 0.6063268892794376,
+        "f1-score": 0.5552376165220219,
+        "support": 4552.0
+      }
+    }
+  },
+  "feature_count": 24,
+  "train_samples": 25792,
+  "val_samples": 4552,
+  "class_names": [
+    "away_win",
+    "draw",
+    "home_win"
+  ]
+}
